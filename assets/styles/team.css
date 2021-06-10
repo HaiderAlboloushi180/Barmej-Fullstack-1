@@ -1,0 +1,70 @@
+body {
+  background-color: rgb(255, 255, 232);
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h2,
+h6 {
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+a {
+  display: flex;
+  align-items: center;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.player {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  justify-content: center;
+  text-align: center;
+  width: 150px;
+  height: 150px;
+}
+
+.li-flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.team-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.team-title img {
+  width: 100px;
+  padding: 15px;
+}
+
+.player img {
+  border: white solid;
+  border-radius: 50%;
+  width: 100px;
+  background-color: white;
+}
+
+.ball-img {
+  width: 60px;
+  padding: 15px;
+}
